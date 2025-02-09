@@ -25,19 +25,18 @@ export default function WhyUsPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-[#FAF3E8] pt-24">
-      <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-[#4A2512] text-center mb-8">
+    <main className="flex-1 bg-[#FAF3E8] pt-24 pb-12 px-4">
+      <div className="container mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold text-[#4A2512] text-center mb-8">
           Why Choose Our Dosas?
         </h1>
-
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {uniquePoints.map((point, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-lg p-8 transition-transform hover:scale-105"
+              className="bg-white rounded-lg shadow-lg p-6 md:p-8 transition-transform hover:scale-105"
             >
-              <h3 className="text-xl font-semibold text-[#4A2512] mb-4">
+              <h3 className="text-lg md:text-xl font-semibold text-[#4A2512] mb-4">
                 {point.title}
               </h3>
               <p className="text-gray-600">{point.description}</p>

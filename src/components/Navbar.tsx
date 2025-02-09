@@ -16,9 +16,9 @@ export default function Navbar() {
           <Image
             src="/Janakis.png"
             alt="Janaki's Logo"
-            width={320}
+            width={400}
             height={70}
-            className="object-contain h-[70px] w-[320px] rounded-md"
+            className="object-contain h-[70px] w-[400px] rounded-md"
           />
         </Link>
         <div className="hidden md:flex space-x-4 md:w-1/3 justify-end">

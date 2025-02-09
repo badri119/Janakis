@@ -27,12 +27,12 @@ export default function Menu() {
   ];
 
   return (
-    <main className="min-h-screen bg-[#FAF3E8] pt-24">
-      <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-[#4A2512] text-center mb-8">
+    <main className="flex-1 bg-[#FAF3E8] pt-24 pb-12 px-4">
+      <div className="container mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold text-[#4A2512] text-center mb-8">
           Our Menu
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {menuItems.map((item, index) => (
             <MenuCard key={index} {...item} />
           ))}
