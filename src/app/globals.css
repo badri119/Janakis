@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background: #faf3e8; /* Warm cream background */
-  --foreground: #4a2512; /* Deep brown text */
-  --primary: #8b4513; /* Saddle brown */
-  --secondary: #4a2512; /* Dark brown */
-  --accent: #d2691e; /* Chocolate accent */
+  --background: #faf3e8;
+  --foreground: #4a2512;
+  --primary: #8b4513;
+  --secondary: #4a2512;
+  --accent: #d2691e;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #2c1810; /* Dark warm brown background */
-    --foreground: #faf3e8; /* Cream text */
-    --primary: #d2691e; /* Lighter chocolate */
-    --secondary: #8b4513; /* Lighter saddle brown */
-    --accent: #e6b17e; /* Warm peach accent */
+    --background: #2c1810;
+    --foreground: #faf3e8;
+    --primary: #d2691e;
+    --secondary: #8b4513;
+    --accent: #e6b17e;
   }
 }
 

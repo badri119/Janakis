@@ -15,7 +15,7 @@ export default function Navbar() {
             alt="Janaki's Logo"
             width={120}
             height={40}
-            className="object-contain"
+            className="object-contain rounded-md"
           />
         </Link>
         <div className="hidden md:flex space-x-8">
