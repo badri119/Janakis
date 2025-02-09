@@ -1,9 +1,6 @@
-import Navbar from "@/components/Navbar";
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#FAF3E8]">
-      <Navbar />
       {/* Hero Section */}
       <section className="pt-24 pb-12 px-4">
         <div className="container mx-auto text-center">

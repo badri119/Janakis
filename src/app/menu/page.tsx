@@ -1,5 +1,4 @@
 import { MenuCard } from "@/components/MenuCard";
-import Navbar from "@/components/Navbar";
 
 export default function Menu() {
   const menuItems = [
@@ -28,20 +27,17 @@ export default function Menu() {
   ];
 
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-[#FAF3E8] pt-24">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-[#4A2512] text-center mb-8">
-            Our Menu
-          </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {menuItems.map((item, index) => (
-              <MenuCard key={index} {...item} />
-            ))}
-          </div>
+    <main className="min-h-screen bg-[#FAF3E8] pt-24">
+      <div className="container mx-auto px-4">
+        <h1 className="text-4xl font-bold text-[#4A2512] text-center mb-8">
+          Our Menu
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {menuItems.map((item, index) => (
+            <MenuCard key={index} {...item} />
+          ))}
         </div>
-      </main>
-    </>
+      </div>
+    </main>
   );
 }
