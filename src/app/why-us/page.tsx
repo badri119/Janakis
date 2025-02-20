@@ -30,8 +30,6 @@ export default function WhyUsPage() {
 
   return (
     <main className="relative min-h-screen bg-[#FDF6E9] pt-24 pb-12 px-4 overflow-hidden">
-      {/* Decorative Elements */}
-
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-[#4A2512] mb-4 font-serif">
